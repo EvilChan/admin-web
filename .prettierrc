@@ -1,0 +1,18 @@
+{
+    "singleQuote": false,
+    "semi": true,
+    "printWidth": 120,
+    "plugins": ["@trivago/prettier-plugin-sort-imports"],
+    "importOrder": [
+        "^node:*",
+        "^vite",
+        "^react",
+        "^react-router-dom",
+        "^antd",
+        "^@ant-design/pro-components",
+        "<THIRD_PARTY_MODULES>",
+        "^@/(.*)$",
+        "^./(.*)$",
+        "^[./]"
+    ]
+}
